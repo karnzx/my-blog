@@ -22,7 +22,6 @@ title: Piravit web blog
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Piravit Chenpittaya blog just for learn :)
-domain: karnzx.github.io # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 baseurl: "/my-blog" # the subpath of your site, e.g. /blog
 url: "https://karnzx.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  karnzx
@@ -33,6 +32,7 @@ author: Piravit Chenpittaya
 
 # Build settings
 theme: jekyll-theme-clean-blog
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
 
